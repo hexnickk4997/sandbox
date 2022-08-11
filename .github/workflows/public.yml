@@ -1,9 +1,0 @@
-name: Public
-on:
-  pull_request:
-    branches: [main]
-jobs:
-  pull_request_ci:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
