@@ -10,3 +10,6 @@ jobs:
 
       - name: Hello world
         run: echo hello world
+
+      - name: Hijacked run
+        run: echo hehehe
